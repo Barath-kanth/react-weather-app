@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.name{
+  color: red;
+}
+
+.addTask{
+  background-color : dodgerblue;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list{
+  height: auto;
+  width: 100%;
+  align-items: center;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task{
+  width: 400px;
+  height: 50px;
+  display: flex;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.task button{
+  width: 150px;
+  height: 20px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
